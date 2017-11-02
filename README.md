@@ -11,7 +11,7 @@ Duplicate wallets and unique email was handled on the admin api when creating wa
 
 Postman configuration used for testing the api development is included  [quiz.postman_collection](./tools/quiz.postman_collection.json).
 
-Logger is not written as off now and can be easily added on later stage into catch block on controllers or [Handler.php](./app/Http/Exceptions/Handler.php).
+Logger is not written as off now and can be easily added on later stage into catch block on controllers or [Handler.php](.app/Exceptions/Handler.php).
 
 ## Mysql ##
 
@@ -35,7 +35,7 @@ Due to vast different in style of writing angularJS and other angular version, t
 
 ## Some setup in here is strictly for the quiz compare to production code. I am skiping some proper implementation to save time.
 
-User injected into data directly from migration script instead of using factory/seed. See [UserMigration](./database/migration/2014_10_12_000000_create_users_table.php).
+User injected into data directly from migration script instead of using factory/seed. See [UserMigration](./database/migrations/2014_10_12_000000_create_users_table.php).
 
 john@wallet.io injected from middleware [JohnMiddleware](./app/Http/Middleware/JohnMiddleware.php) as current user for all the api calls.
 

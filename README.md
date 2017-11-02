@@ -15,7 +15,7 @@ Logger is not written as off now and can be easily added on later stage into cat
 
 ## Mysql ##
 
-3 Main table which can be found inside migration folder [migrations](./database/migrations/).
+3 main tables can be found inside migration folder [migrations](./database/migrations/).
 
 ``email`` on user table is unique indexed for fast searching base on user email on public api and admin api. 
 

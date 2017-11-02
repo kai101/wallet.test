@@ -1,0 +1,202 @@
+{
+	"id": "cf9895ab-c6d6-c43c-e8d5-14d6a2a0802e",
+	"name": "quiz",
+	"description": "",
+	"order": [
+		"49ee71ee-0b1e-473b-8fc6-e1630b06180a",
+		"39af167f-2ec5-b815-0298-4da93ea0202d",
+		"09dbc7c5-f8ef-d181-adc2-d2eb87410e8a",
+		"4e1a07fc-c932-9fa8-8bc2-31825594b0f5",
+		"13f4bec7-1d8f-fec9-0b9d-a3fd7c5c3467"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1509554237021,
+	"owner": "171118",
+	"public": false,
+	"requests": [
+		{
+			"id": "09dbc7c5-f8ef-d181-adc2-d2eb87410e8a",
+			"headers": "x-auth-key: Zioj23D92j2kGf9D\n",
+			"headerData": [
+				{
+					"key": "x-auth-key",
+					"value": "Zioj23D92j2kGf9D",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://wallet.test/api/wallet/john2@wallet.io",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "DELETE",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1509628200976,
+			"name": "DEL api/wallet/{email}",
+			"description": "get api",
+			"collectionId": "cf9895ab-c6d6-c43c-e8d5-14d6a2a0802e",
+			"responses": []
+		},
+		{
+			"id": "13f4bec7-1d8f-fec9-0b9d-a3fd7c5c3467",
+			"headers": "x-auth-key: Zioj23D92j2kGf9D\n",
+			"headerData": [
+				{
+					"key": "x-auth-key",
+					"value": "Zioj23D92j2kGf9D",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://wallet.test/api/transactions",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "email",
+					"value": "john@wallet.io",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "credit",
+					"value": "0.00",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "debit",
+					"value": "11111.00",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "remarks",
+					"value": "extra money",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1509568735329,
+			"name": "api/transactions",
+			"description": "get api",
+			"collectionId": "cf9895ab-c6d6-c43c-e8d5-14d6a2a0802e",
+			"responses": []
+		},
+		{
+			"id": "39af167f-2ec5-b815-0298-4da93ea0202d",
+			"headers": "x-auth-key: Zioj23D92j2kGf9D\n",
+			"headerData": [
+				{
+					"key": "x-auth-key",
+					"value": "Zioj23D92j2kGf9D",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://wallet.test/api/wallet/john2@wallet.io",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1509626937641,
+			"name": "GET api/wallet/{email}",
+			"description": "get api",
+			"collectionId": "cf9895ab-c6d6-c43c-e8d5-14d6a2a0802e",
+			"responses": []
+		},
+		{
+			"id": "49ee71ee-0b1e-473b-8fc6-e1630b06180a",
+			"headers": "",
+			"headerData": [
+				{
+					"key": "",
+					"value": "",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://wallet.test/api/wallet",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1509556556730,
+			"name": "GET api/wallet",
+			"description": "get api",
+			"collectionId": "cf9895ab-c6d6-c43c-e8d5-14d6a2a0802e",
+			"responses": []
+		},
+		{
+			"id": "4e1a07fc-c932-9fa8-8bc2-31825594b0f5",
+			"headers": "x-auth-key: Zioj23D92j2kGf9D\nContent-Type: text/json\n",
+			"headerData": [
+				{
+					"key": "x-auth-key",
+					"value": "Zioj23D92j2kGf9D",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "text/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://wallet.test/api/wallet",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "email",
+					"value": "john@wallet.io",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1509627146540,
+			"name": "api/wallet admin",
+			"description": "get api",
+			"collectionId": "cf9895ab-c6d6-c43c-e8d5-14d6a2a0802e",
+			"responses": []
+		}
+	]
+}
